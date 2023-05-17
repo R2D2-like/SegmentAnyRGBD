@@ -10,7 +10,7 @@ import os
 import cv2
 
 from pytorch3d.structures import Pointclouds
-from pytorch3d.renderer import look_at_view_transform
+# from pytorch3d.renderer import look_at_view_transform
 
 from detectron2.data import MetadataCatalog
 from detectron2.engine.defaults import DefaultPredictor
