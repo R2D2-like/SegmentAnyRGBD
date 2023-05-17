@@ -19,7 +19,7 @@ from detectron2.data.detection_utils import read_image
 from segment_anything import sam_model_registry, SamAutomaticMaskGenerator, SamPredictor
 import matplotlib.pyplot as plt
 import matplotlib as mpl
-from .pcd_rendering import unproject_pts_pt, get_coord_grids_pt, create_pcd_renderer
+# from .pcd_rendering import unproject_pts_pt, get_coord_grids_pt, create_pcd_renderer
 
 
 class OVSegPredictor(DefaultPredictor):
