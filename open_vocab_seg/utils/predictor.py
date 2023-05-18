@@ -493,7 +493,7 @@ class VisualizationDemoIndoor(VisualizationDemo):
         plt.figure()
         plt.imshow(colored_depth.astype(np.uint8)[:,:,:-1])
         plt.axis('off')
-        plt.savefig('outputs/Depth_rendered.png')
+        plt.savefig('/root/HSR/catkin_ws/Depth_rendered.png')
         masks_depth = mask_generator_2.generate(colored_depth.astype(np.uint8)[:,:,:-1])
         masks_depth = sorted(masks_depth, key=(lambda x: x['area']), reverse=True)
 
